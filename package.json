@@ -1,0 +1,22 @@
+{
+  "name": "eliza_voice",
+  "version": "1.0.0",
+  "description": "eliza voice bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  },
+  "dependencies": {
+    "annyang": "^2.4.0",
+    "socket.io": "^1.4.6",
+    "socket.io-client": "^1.4.6"
+  }
+}
